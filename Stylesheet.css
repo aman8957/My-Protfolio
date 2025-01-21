@@ -84,6 +84,7 @@ section{
     background: url('D:\Projects\PORTFOLIO\Portfolio1.png') no-repeat;
     background-size: cover;
     background-position: center;
+    height: 20vh;
 }
 .home-content{
     max-width: 60rem;
@@ -105,6 +106,11 @@ section{
     position: relative;
     width: 32.8rem;
 }
+
+#mainimage{
+    height: 100vh;
+}
+
 .home-content .text-animate h3{
     font-size: 3.2rem;
     font-weight: 700;
@@ -1026,4 +1032,10 @@ footer.show-animate .animate.scroll {
     100%{
         width: 0;
     }
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+    #mainimage {
+        display: none;
+    }    
 }
